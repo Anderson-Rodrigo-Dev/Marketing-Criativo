@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .principal {
+        flex-direction: column  ;
+        text-align: center;
+    }
+    
+    .principal h2{
+        font-size: 30px;
+    }
+
+    .principal p {
+        text-align: center;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .principal form input {
+        align-self: center;
+    }
+
+    .principal img {
+        display: none;
+    }
+}
